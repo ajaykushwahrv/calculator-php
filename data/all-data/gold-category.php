@@ -1,6 +1,6 @@
 <?php 
     if (isset($allCulatorsDaat['error']) || empty($allCulatorsDaat) || !is_array($allCulatorsDaat)) { ?>
-        <marquee behavior='' direction=''   style='display: flex; align-items: center; color:red;'>We're currently experiencing a temporary server issue. Don't worry, our team is already working on it, and the website will be back online shortly. Thank you for your patience. </marquee>
+        <marquee behavior='' direction=''   style='display: flex; align-items: center; color:red;'>We're currently experiencing a temporary server issue. Don't worry, our team is already working on it, and the Tools will be back online shortly. Thank you for your patience. </marquee>
     <?php } else {
 ?>
     <div class="calculatorlist-section">
