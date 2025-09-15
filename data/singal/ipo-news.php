@@ -1,7 +1,6 @@
  <?php 
 $rvIPONewsdata = fetchDatasingleAPI('ipo-news');  
 if (isset($rvIPONewsdata['error']) || empty($rvIPONewsdata) || !is_array($rvIPONewsdata)) {
-    // Agar API fail ho â†’ fallback ya error
     echo "<marquee behavior='' direction=''   style='background: #000; display: flex; align-items: center; color:red;'>We're currently experiencing a temporary server issue. Don't worry, our team is already working on it, and the Tools will be back online shortly. Thank you for your patience. </marquee>";
 } else { ?>
       

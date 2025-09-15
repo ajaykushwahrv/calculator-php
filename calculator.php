@@ -26,7 +26,7 @@ gcategory
 6 Delay Planning Calculator         calculator.php?tools=delay-plan
 7 Life Insurance Calculator         calculator.php?tools=life-insurance-plan
 8 Emi Planning Calculator           calculator.php?tools=emi-plan 
-9 Tax Calculator                    calculator.php?tools=tax-calculator
+9 Tax Calculator                    calculator.php?tools=calculator.php
 10 Marriage Planning Calculator     calculator.php?tools=marriage-plan
 11 Education Planning Calculator    calculator.php?tools=education-plan
 12 Home Loan Calculator             calculator.php?tools=house-plan
@@ -47,7 +47,7 @@ gcategory
 
 
 
-
+ 
  
 function fetchDatasingleAPI($urlName) {
     if (is_array($urlName)) {

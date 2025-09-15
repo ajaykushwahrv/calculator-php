@@ -117,7 +117,7 @@ return
 ^#2::
 Clipboard :="
 (
-<link type=""text/css"" rel=""stylesheet"" href=""<?= $userinfo['base_url']; ?>/assets/css/calculator-style.css""/>
+<link type=""text/css"" rel=""stylesheet"" href=""<?= $userinfo['base_url']; ?>/assets/css/calculator-style.css""  media=""all"" />
 )"
 Send, ^v
 return
