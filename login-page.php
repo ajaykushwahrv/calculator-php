@@ -29,9 +29,7 @@
      
 <?php } else { $i=1;   foreach($allLoginData as $allLogin):  if ($allLogin['login_type'] != 1) continue; ?>
      
-    id="rvlogin<?= $allLogin['id']; ?>"
-    value="<?= $allLogin['radio_value']; ?>"
-    <?php switch($i){ case 1: echo "checked='checked'"; break; } ?>
+    id="rvlogin<?= $allLogin['id']; ?>" value="<?= $allLogin['radio_value']; ?>" <?php switch($i){ case 1: echo "checked='checked'"; break; } ?>
     <?= $allLogin['radio_name']; ?>
     for="rvlogin<?= $allLogin['id']; ?>"
 

@@ -110,8 +110,8 @@ Popular News
 <iframe src="<?= $rvIPONewsdata['domainName']; ?>/<?= $rvIPONewsdata['directoryName']; ?>/<?= $rvIPONewsdata['toolscat']; ?>/<?= $rvIPONewsdata['urlName']; ?>?apikey=<?= $rvIPONewsdata['apikey']; ?>&primarycolor=293895&secondarycolor=a0cd3a&bgcolo=0000" frameBorder={0} height=510px; width="100%"></iframe>
 
 <div style="position: relative; height: 48px;">
-<?php $rvIPONewsdata = fetchDatasingleAPI('all-news'); ?>
-<iframe src="<?= $rvIPONewsdata['domainName']; ?>/<?= $rvIPONewsdata['directoryName']; ?>/<?= $rvIPONewsdata['toolscat']; ?>?apikey=<?= $rvIPONewsdata['apikey']; ?>&primarycolor=293895&secondarycolor=a0cd3a&bgcolo=0000" frameBorder={0} height=510px; width="100%"></iframe>
+<?php $rvallNewsdata = fetchDatasingleAPI('all-news'); ?>
+<iframe src="<?= $rvallNewsdata['domainName']; ?>/<?= $rvallNewsdata['directoryName']; ?>/<?= $rvallNewsdata['toolscat']; ?>?apikey=<?= $rvallNewsdata['apikey']; ?>&primarycolor=293895&secondarycolor=a0cd3a&bgcolo=0000" frameBorder={0} height=510px; width="100%"></iframe>
 </div>
 
 
