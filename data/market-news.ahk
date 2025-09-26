@@ -122,10 +122,4 @@ Clipboard :="
 Send, ^v
 return
 
-^#3::
-Clipboard :="
-(
-<script src=""<?= $userinfo['base_url']; ?>/assets/js/jquery-3.6.0.min.js""></script>
-)"
-Send, ^v
-return
+ 

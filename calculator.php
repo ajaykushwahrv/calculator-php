@@ -25,7 +25,7 @@ gcategory
 5 Retirement Planning               calculator.php?tools=retirement-plan
 6 Delay Planning Calculator         calculator.php?tools=delay-plan
 7 Life Insurance Calculator         calculator.php?tools=life-insurance-plan
-8 Emi Planning Calculator           calculator.php?tools=emi-plan 
+8 Emi Planning Calculator           calculator.php?tools=emi-plan
 9 Tax Calculator                    calculator.php?tools=calculator.php
 10 Marriage Planning Calculator     calculator.php?tools=marriage-plan
 11 Education Planning Calculator    calculator.php?tools=education-plan
