@@ -6,7 +6,7 @@ if (isset($rvallNewsdata['error']) || empty($rvallNewsdata) || !is_array($rvallN
 <iframe 
     id="fundNews"
     frameborder="0" 
-    height="480" 
+    height="280" 
     width="100%">
 </iframe>
 
